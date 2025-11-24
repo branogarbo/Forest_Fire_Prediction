@@ -1,0 +1,34 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter-specific
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.jupyter/
+*.history
+.local/share/jupyter/
+
+# Development environment files
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# Logs and temporary files
+logs/
+tmp/
+*.log
+
+# Data files (if not needed in the image)
+data/
+datasets/
+
+# Environment variables
+.env
