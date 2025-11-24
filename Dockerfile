@@ -21,8 +21,7 @@ RUN if [ -f /notebooks/requirements.txt ]; then \
       pip install --no-cache-dir -r /notebooks/requirements.txt ; \
     fi
 
-# Copy your notebook into the image as a fallback
-#COPY notebook.ipynb /notebooks/notebook.ipynb
+COPY . .
 
 # Create a user (optional) - use root for simplicity or create jovyan user:
 # (Jupyter will run as root by default here via CMD; adjust if you add a non-root user)
